@@ -1,4 +1,4 @@
-package rocks.zipcode.io.quiz4.objectorientation;
+package rocks.zipcode.io.quiz4.collections;
 
 /**
  * @author leon on 11/12/2018.

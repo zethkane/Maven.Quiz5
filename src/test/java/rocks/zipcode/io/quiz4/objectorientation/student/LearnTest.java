@@ -2,7 +2,7 @@ package rocks.zipcode.io.quiz4.objectorientation.student;
 
 import org.junit.Assert;
 import org.junit.Test;
-import rocks.zipcode.io.quiz4.objectorientation.Student;
+import rocks.zipcode.io.quiz4.collections.Student;
 
 /**
  * @author leon on 11/12/2018.
