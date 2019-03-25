@@ -1,4 +1,4 @@
-package rocks.zipcode.io.quiz4.objectorientation.student;
+package rocks.zipcode.io.quiz4.collections.student;
 
 import org.junit.Assert;
 import org.junit.Test;

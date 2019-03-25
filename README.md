@@ -8,7 +8,8 @@
 		* `PalindromeObject`
 		* `StringAssembler`
 		* `StringEvaluatorObject`
-		* `Student`
 	3. collections
-	4. 
+		* `SimpleStrinGroup`
+		* ``
+	
 	4. generics
