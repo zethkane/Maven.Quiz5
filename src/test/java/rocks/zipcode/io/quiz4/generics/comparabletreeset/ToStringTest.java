@@ -1,8 +1,8 @@
-package rocks.zipcode.io.quiz4.collections.comparabletreeset;
+package rocks.zipcode.io.quiz4.generics.comparabletreeset;
 
 import org.junit.Assert;
 import org.junit.Test;
-import rocks.zipcode.io.quiz4.collections.ComparableTreeSet;
+import rocks.zipcode.io.quiz4.generics.ComparableTreeSet;
 
 /**
  * @author leon on 11/12/2018.

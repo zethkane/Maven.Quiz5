@@ -1,4 +1,4 @@
-package rocks.zipcode.io.quiz4.collections;
+package rocks.zipcode.io.quiz4.generics;
 
 /**
  * @author leon on 11/12/2018.
