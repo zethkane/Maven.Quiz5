@@ -7,15 +7,15 @@ public class StringEvaluatorObject {
     public StringEvaluatorObject(String str) {
     }
 
-    public String[] getAllPrefixes() {
+    public String[] getAllSubstrings() {
         return null;
     }
 
-    public String[] getCommonPrefixes(String secondInput) {
+    public String[] getCommonSubstrings(String secondInput) {
         return null;
     }
 
-    public String getLargestCommonPrefix(String secondInput) {
+    public String getLargestCommonSubstring(String secondInput) {
         return null;
     }
 }

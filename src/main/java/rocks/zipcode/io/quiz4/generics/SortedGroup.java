@@ -12,7 +12,7 @@ public class SortedGroup<_> extends Group<_> {
     public void delete(_ value) {
     }
 
-    public Integer indexOf(_ firstValue) {
+    public Integer indexOf(_ value) {
         return null;
     }
 }

@@ -7,7 +7,7 @@ import rocks.zipcode.io.quiz4.fundamentals.StringEvaluator;
 /**
  * @author leon on 11/12/2018.
  */
-public class GetLargestCommonSuffixTest {
+public class GetLargestCommonSubstringTest {
     @Test
     public void test1() {
         // given
@@ -16,7 +16,7 @@ public class GetLargestCommonSuffixTest {
         String expected = "AAB";
 
         // when
-        String actual = StringEvaluator.getLargestCommonPrefix(firstInput, secondInput);
+        String actual = StringEvaluator.getLargestCommonSubstring(firstInput, secondInput);
 
         // then
         Assert.assertEquals(expected, actual);
@@ -30,7 +30,7 @@ public class GetLargestCommonSuffixTest {
         String expected = "AA";
 
         // when
-        String actual = StringEvaluator.getLargestCommonPrefix(firstInput, secondInput);
+        String actual = StringEvaluator.getLargestCommonSubstring(firstInput, secondInput);
 
         // then
         Assert.assertEquals(expected, actual);
@@ -46,7 +46,7 @@ public class GetLargestCommonSuffixTest {
         String expected = "apple";
 
         // when
-        String actual = StringEvaluator.getLargestCommonPrefix(firstInput, secondInput);
+        String actual = StringEvaluator.getLargestCommonSubstring(firstInput, secondInput);
 
         // then
         Assert.assertEquals(expected, actual);
@@ -62,7 +62,7 @@ public class GetLargestCommonSuffixTest {
         String expected = "educ";
 
         // when
-        String actual = StringEvaluator.getLargestCommonPrefix(firstInput, secondInput);
+        String actual = StringEvaluator.getLargestCommonSubstring(firstInput, secondInput);
 
         // then
         Assert.assertEquals(expected, actual);

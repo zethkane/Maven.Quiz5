@@ -1,24 +1,19 @@
-package rocks.zipcode.io.quiz4.fundamentals.stringevaluator;
+package rocks.zipcode.io.quiz4.objectorientation.stringevaluatorobject;
 
 import org.junit.Test;
-import rocks.zipcode.io.quiz4.fundamentals.StringEvaluator;
+import rocks.zipcode.io.quiz4.objectorientation.StringEvaluatorObject;
 import rocks.zipcode.io.quiz4.utils.TestUtils;
 
 /**
  * @author leon on 11/12/2018.
  */
-public class GetAllPrefixes {
+public class GetAllSubstrings {
     @Test
     public void test1() {
         // given
         String input = "A";
         String[] expected = {input};
-
-        // when
-        String[] actual = StringEvaluator.getAllPrefixes(input);
-
-        // then
-        TestUtils.assertArrayEquals(expected, actual);
+        test(input, expected);
     }
 
     @Test
@@ -26,12 +21,7 @@ public class GetAllPrefixes {
         // given
         String input = "B";
         String[] expected = {input};
-
-        // when
-        String[] actual = StringEvaluator.getAllPrefixes(input);
-
-        // then
-        TestUtils.assertArrayEquals(expected, actual);
+        test(input, expected);
     }
 
 
@@ -40,12 +30,7 @@ public class GetAllPrefixes {
         // given
         String input = "AB";
         String[] expected = {"A", "B", "AB"};
-
-        // when
-        String[] actual = StringEvaluator.getAllPrefixes(input);
-
-        // then
-        TestUtils.assertArrayEquals(expected, actual);
+        test(input, expected);
     }
 
 
@@ -54,12 +39,7 @@ public class GetAllPrefixes {
         // given
         String input = "ABB";
         String[] expected = {"A", "AB", "ABB", "B", "BB"};
-
-        // when
-        String[] actual = StringEvaluator.getAllPrefixes(input);
-
-        // then
-        TestUtils.assertArrayEquals(expected, actual);
+        test(input, expected);
     }
 
 
@@ -68,12 +48,7 @@ public class GetAllPrefixes {
         // given
         String input = "AABB";
         String[] expected = {"A", "AA", "AAB", "AABB", "AB", "ABB", "B", "BB"};
-
-        // when
-        String[] actual = StringEvaluator.getAllPrefixes(input);
-
-        // then
-        TestUtils.assertArrayEquals(expected, actual);
+        test(input, expected);
     }
 
 
@@ -94,10 +69,15 @@ public class GetAllPrefixes {
                 "d", "dT", "dTo", "dToT", "dToTe", "dToTes", "dToTest",
                 "s", "st"};
 
+        test(input, expected);
+    }
+
+    private void test(String input, String[] expected) {
         // when
-        String[] actual = StringEvaluator.getAllPrefixes(input);
+        String[] actual = new StringEvaluatorObject(input).getAllSubstrings();
 
         // then
         TestUtils.assertArrayEquals(expected, actual);
+
     }
 }

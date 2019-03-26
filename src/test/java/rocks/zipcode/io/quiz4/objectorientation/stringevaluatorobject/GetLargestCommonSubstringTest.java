@@ -2,14 +2,12 @@ package rocks.zipcode.io.quiz4.objectorientation.stringevaluatorobject;
 
 import org.junit.Assert;
 import org.junit.Test;
-import rocks.zipcode.io.quiz4.fundamentals.StringEvaluator;
 import rocks.zipcode.io.quiz4.objectorientation.StringEvaluatorObject;
-import rocks.zipcode.io.quiz4.utils.TestUtils;
 
 /**
  * @author leon on 11/12/2018.
  */
-public class GetLargestCommonPrefixTest {
+public class GetLargestCommonSubstringTest {
     @Test
     public void test1() {
         // given
@@ -53,7 +51,7 @@ public class GetLargestCommonPrefixTest {
 
     private void test(String firstInput, String secondInput, String expected) {
         // when
-        String actual = new StringEvaluatorObject(firstInput).getLargestCommonPrefix(secondInput);
+        String actual = new StringEvaluatorObject(firstInput).getLargestCommonSubstring(secondInput);
 
         // then
         Assert.assertEquals(expected, actual);

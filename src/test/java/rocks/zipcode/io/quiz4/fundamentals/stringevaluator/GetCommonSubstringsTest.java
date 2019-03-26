@@ -7,7 +7,7 @@ import rocks.zipcode.io.quiz4.utils.TestUtils;
 /**
  * @author leon on 11/12/2018.
  */
-public class GetCommonSuffixesTest {
+public class GetCommonSubstringsTest {
     @Test
     public void test1() {
         // given
@@ -16,7 +16,7 @@ public class GetCommonSuffixesTest {
         String[] expected = {"A", "AA", "AAB", "AB", "B"};
 
         // when
-        String[] actual = StringEvaluator.getCommonPrefixes(firstInput, secondInput);
+        String[] actual = StringEvaluator.getCommonSubstrings(firstInput, secondInput);
 
         // then
         TestUtils.assertArrayEquals(expected, actual);
@@ -30,7 +30,7 @@ public class GetCommonSuffixesTest {
         String[] expected = {"A", "AA", "B"};
 
         // when
-        String[] actual = StringEvaluator.getCommonPrefixes(firstInput, secondInput);
+        String[] actual = StringEvaluator.getCommonSubstrings(firstInput, secondInput);
 
         // then
         TestUtils.assertArrayEquals(expected, actual);
@@ -45,7 +45,7 @@ public class GetCommonSuffixesTest {
         String[] expected = {"a", "ap", "app", "appl", "apple", "e", "l", "le", "p", "pl", "ple", "pp", "ppl", "pple"};
 
         // when
-        String[] actual = StringEvaluator.getCommonPrefixes(firstInput, secondInput);
+        String[] actual = StringEvaluator.getCommonSubstrings(firstInput, secondInput);
 
         // then
         TestUtils.assertArrayEquals(expected, actual);
@@ -61,7 +61,7 @@ public class GetCommonSuffixesTest {
         String[] expected = {" ", "c", "d", "du", "duc", "e", "e ", "ed", "edu", "educ", "i", "o", "p", "r", "t", "u", "uc"};
 
         // when
-        String[] actual = StringEvaluator.getCommonPrefixes(firstInput, secondInput);
+        String[] actual = StringEvaluator.getCommonSubstrings(firstInput, secondInput);
 
         // then
         TestUtils.assertArrayEquals(expected, actual);
@@ -75,7 +75,7 @@ public class GetCommonSuffixesTest {
         String[] expected = {" ", " a", " a ", "a", "a ", "c", "e", "i", "r", "t"};
 
         // when
-        String[] actual = StringEvaluator.getCommonPrefixes(firstInput, secondInput);
+        String[] actual = StringEvaluator.getCommonSubstrings(firstInput, secondInput);
 
         // then
         TestUtils.assertArrayEquals(expected, actual);

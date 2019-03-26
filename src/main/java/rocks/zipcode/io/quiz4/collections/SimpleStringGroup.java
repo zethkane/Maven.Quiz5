@@ -15,7 +15,7 @@ public class SimpleStringGroup {
     public void insert(String string) {
     }
 
-    public Boolean has(String valueToInsert) {
+    public Boolean has(String string) {
         return null;
     }
 
@@ -23,7 +23,7 @@ public class SimpleStringGroup {
         return null;
     }
 
-    public void delete(String valueToInsert) {
+    public void delete(String string) {
     }
 
     public void clear() {
