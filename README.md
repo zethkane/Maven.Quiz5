@@ -1,4 +1,4 @@
-# Quiz 4
+# Quiz 6
 ## Overview
 * This quiz has sections
 	1. fundamentals
