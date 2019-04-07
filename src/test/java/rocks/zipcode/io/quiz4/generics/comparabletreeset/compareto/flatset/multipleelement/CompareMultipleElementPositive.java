@@ -12,8 +12,8 @@ public class CompareMultipleElementPositive {
     @Test
     public void test1() {
         // given
-        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Burt", "Belly", "Bot");
-        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Arty", "Fee", "Shawl");
+        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Burtxxxx", "Bellyxx", "Botxx");
+        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Artyxxx", "Feexxx", "Shawlxxx");
 
         // when
         Integer actual = set1.compareTo(set2);
@@ -26,8 +26,8 @@ public class CompareMultipleElementPositive {
     @Test
     public void test2() {
         // given
-        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Corny", "Carl", "Cart");
-        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Candy", "Cane", "Corks");
+        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Cornyxx", "Carlxxx", "Cartxxx");
+        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Candyxxx", "Canexxxx", "Corksxx");
 
         // when
         Integer actual = set1.compareTo(set2);
@@ -40,8 +40,8 @@ public class CompareMultipleElementPositive {
     @Test
     public void test3() {
         // given
-        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Corny", "Carl", "Cart");
-        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("", "a", "z");
+        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Cornyxxx", "Carlxxx", "Cartxxx");
+        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("", "axx", "zxx");
 
         // when
         Integer actual = set1.compareTo(set2);

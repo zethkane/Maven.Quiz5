@@ -12,8 +12,8 @@ public class PalindromeObjectGetAllPalindromesTest {
     @Test
     public void test1() {
         // given
-        String input = "racecar";
-        String[] expected = new String[]{"a", "aceca", "c", "cec", "e", "r", "racecar"};
+        String input = "racxcar";
+        String[] expected = new String[]{"a", "acxca", "c", "cxc", "e", "r", "racxcar"};
         test(input, expected);
     }
 
@@ -21,7 +21,7 @@ public class PalindromeObjectGetAllPalindromesTest {
     public void test2() {
         // given
         String input = "redder";
-        String[] expected = new String[]{"d", "dd", "e", "edde", "r", "redder"};
+        String[] expected = new String[]{"x", "xx", "e", "exxe", "r", "rexxer"};
         test(input, expected);
     }
 
@@ -29,16 +29,16 @@ public class PalindromeObjectGetAllPalindromesTest {
     @Test
     public void test3() {
         // given
-        String input = "rotor";
-        String[] expected = new String[]{"o", "oto", "r", "rotor", "t"};
+        String input = "roxor";
+        String[] expected = new String[]{"o", "oxo", "r", "roxor", "x"};
         test(input, expected);
     }
 
     @Test
     public void test4() {
         // given
-        String input = "civic";
-        String[] expected = new String[]{"c", "civic", "i", "ivi", "v"};
+        String input = "cixic";
+        String[] expected = new String[]{"c", "cixic", "i", "ixi", "x"};
         test(input, expected);
     }
 

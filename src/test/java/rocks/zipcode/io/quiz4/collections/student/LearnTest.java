@@ -11,7 +11,7 @@ public class LearnTest {
     @Test
     public void test1() {
         Student student = new Student();
-        Double expected = 15.0;
+        Double expected = 115.0;
 
         // when
         student.learn(expected);
@@ -24,7 +24,7 @@ public class LearnTest {
     @Test
     public void test2() {
         Student student = new Student();
-        Double expected = 30.0;
+        Double expected = 130.0;
 
         // when
         student.learn(expected);
@@ -37,8 +37,8 @@ public class LearnTest {
     @Test
     public void test3() {
         Student student = new Student();
-        Double firstLecture = 15.0;
-        Double secondLecture = 25.0;
+        Double firstLecture = 115.0;
+        Double secondLecture = 125.0;
         Double expected = firstLecture + secondLecture;
 
         // when
@@ -54,8 +54,8 @@ public class LearnTest {
     @Test
     public void test4() {
         Student student = new Student();
-        Double firstLecture = 35.0;
-        Double secondLecture = 25.0;
+        Double firstLecture = 135.0;
+        Double secondLecture = 125.0;
         Double expected = firstLecture + secondLecture;
 
         // when
@@ -72,8 +72,8 @@ public class LearnTest {
     @Test
     public void test5() {
         Student student = new Student();
-        Double firstLecture = 98.0;
-        Double secondLecture = 72.0;
+        Double firstLecture = 198.0;
+        Double secondLecture = 172.0;
         Double expected = firstLecture + secondLecture;
 
         // when

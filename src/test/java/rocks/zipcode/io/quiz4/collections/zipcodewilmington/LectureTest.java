@@ -11,20 +11,20 @@ import rocks.zipcode.io.quiz4.collections.Student;
 public class LectureTest {
     @Test
     public void test1() {
-        test(200.0,
+        test(100.0,
                 new Student());
     }
 
     @Test
     public void test2() {
-        test(150.0,
+        test(200.0,
                 new Student(),
                 new Student());
     }
 
     @Test
     public void test3() {
-        test(100.0,
+        test(300.0,
                 new Student(),
                 new Student(),
                 new Student());
@@ -33,7 +33,7 @@ public class LectureTest {
 
     @Test
     public void test4() {
-        test(50.0,
+        test(400.0,
                 new Student(),
                 new Student(),
                 new Student(),
@@ -42,7 +42,7 @@ public class LectureTest {
 
     @Test
     public void test5() {
-        test(25.0,
+        test(500.0,
                 new Student(),
                 new Student(),
                 new Student(),
@@ -53,7 +53,7 @@ public class LectureTest {
 
     @Test
     public void test6() {
-        test(12.5,
+        test(600.0,
                 new Student(),
                 new Student(),
                 new Student(),

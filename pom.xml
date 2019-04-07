@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>rocks.zipcode.io</groupId>
-    <artifactId>quiz4</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>quiz5</artifactId>
+    <version>1.0</version>
     <build>
         <plugins>
             <plugin>

@@ -11,22 +11,22 @@ import rocks.zipcode.io.quiz4.objectorientation.PalindromeObject;
 public class PalindromeObjectReverseTest {
     @Test
     public void test1() {
-        test("leon", "noel");
+        test("xeon", "noex");
     }
 
     @Test
     public void test2() {
-        test("Jerry", "yrreJ");
+        test("xerry", "yrrex");
     }
 
     @Test
     public void test3() {
-        test("KJack", "kcaJK");
+        test("xJack", "kcaJx");
     }
 
     @Test
     public void test4() {
-        test("redrum murder", "redrum murder");
+        test("xedrum murder", "redrum murdex");
     }
 
     public void test(String input, String expected) {

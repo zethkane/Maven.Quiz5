@@ -14,28 +14,28 @@ import java.util.List;
 public class IterableTest {
     @Test
     public void test1() {
-        test("the");
+        test("the", "blah");
     }
 
     @Test
     public void test2() {
-        test("the", "quick");
+        test("the", "quick", "blah");
     }
 
     @Test
     public void test3() {
-        test("the", "quick", "brown");
+        test("the", "quick", "brown","blah");
     }
 
 
     @Test
     public void test4() {
-        test("the", "quick", "brown", "fox");
+        test("the", "quick", "brown", "fox", "blah");
     }
 
     @Test
     public void test5() {
-        test("the", "quick", "brown", "fox", "jumps");
+        test("the", "quick", "brown", "fox", "jumps", "blah");
     }
 
     private void test(String... stringsToInsert) {

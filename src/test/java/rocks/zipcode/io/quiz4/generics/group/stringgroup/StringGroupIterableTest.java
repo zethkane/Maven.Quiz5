@@ -15,28 +15,28 @@ import java.util.List;
 public class StringGroupIterableTest {
     @Test
     public void test1() {
-        test("the");
+        test("the1");
     }
 
     @Test
     public void test2() {
-        test("the", "quick");
+        test("the1", "quick1");
     }
 
     @Test
     public void test3() {
-        test("the", "quick", "brown");
+        test("the1", "quick1", "brown1");
     }
 
 
     @Test
     public void test4() {
-        test("the", "quick", "brown", "fox");
+        test("the1", "quick1", "brown1", "fox1");
     }
 
     @Test
     public void test5() {
-        test("the", "quick", "brown", "fox", "jumps");
+        test("the1", "quick1", "brown1", "fox1", "jumps1");
     }
 
     private void test(String... valuesToInsert) {

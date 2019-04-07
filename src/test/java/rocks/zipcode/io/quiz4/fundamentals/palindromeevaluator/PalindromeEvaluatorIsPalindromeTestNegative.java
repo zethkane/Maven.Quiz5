@@ -11,17 +11,17 @@ import rocks.zipcode.io.quiz4.objectorientation.PalindromeObject;
 public class PalindromeEvaluatorIsPalindromeTestNegative {
     @Test
     public void test1() {
-        test("Racecar");
+        test("Raczcar");
     }
 
     @Test
     public void test2() {
-        test("Redder");
+        test("Rezzer");
     }
 
     @Test
     public void test3() {
-        test("Redrum murder");
+        test("Redrum murderz");
     }
 
     public void test(String input) {

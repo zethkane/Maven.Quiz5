@@ -12,8 +12,8 @@ public class CompareMultipleElementNeutral {
     @Test
     public void test1() {
         // given
-        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Arty", "Fee", "Shawl");
-        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Fee", "Shawl", "Arty");
+        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Artyxxxxx", "Feexxxx", "Shawlxxxx");
+        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Feexxx", "Shawlxxxx", "Artyxxx");
 
         // when
         Integer actual = set1.compareTo(set2);
@@ -26,8 +26,8 @@ public class CompareMultipleElementNeutral {
     @Test
     public void test2() {
         // given
-        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("The", "Quick", "Brown", "Fox", "Jumps");
-        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Jumps", "Brown", "Fox", "Quick", "The");
+        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Thexxx", "Quickxxx", "Brownxxxx", "Foxxxx", "Jumpsxxx");
+        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Jumpsxxx", "Brownxxx", "Foxxxx", "Quickxxx", "Thexxx");
 
         // when
         Integer actual = set1.compareTo(set2);

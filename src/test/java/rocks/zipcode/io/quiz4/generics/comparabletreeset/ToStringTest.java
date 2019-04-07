@@ -11,9 +11,9 @@ public class ToStringTest {
     @Test
     public void test1() {
         // given
-        String[] input = "qwertyuiop".split("");
+        String[] input = "efghiabcd".split("");
         ComparableTreeSet<String> set = new ComparableTreeSet<>(input);
-        String expected = "[e, i, o, p, q, r, t, u, w, y]";
+        String expected = "[a, b, c, d, e, f, g, h, i]";
 
         // when
         String actual = set.toString();
@@ -25,9 +25,9 @@ public class ToStringTest {
     @Test
     public void test2() {
         // given
-        String[] input = "asdfghjk".split("");
+        String[] input = "cba".split("");
         ComparableTreeSet<String> set = new ComparableTreeSet<>(input);
-        String expected = "[a, d, f, g, h, j, k, s]";
+        String expected = "[a, b, c]";
 
         // when
         String actual = set.toString();

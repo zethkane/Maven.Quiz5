@@ -29,12 +29,12 @@ public class StringStackPopTest {
 
     @Test
     public void test2() {
-        test("765", "321", "9", "342", "98", "132");
+        test("1765", "1321", "19", "1342", "198", "1132");
     }
     
     @Test
     public void test3() {
-        test("1123", "65", "4568", "21", "3154");
+        test("11123", "165", "14568", "121", "13154");
     }
 
     private void test(String... elementsToBePushed) {

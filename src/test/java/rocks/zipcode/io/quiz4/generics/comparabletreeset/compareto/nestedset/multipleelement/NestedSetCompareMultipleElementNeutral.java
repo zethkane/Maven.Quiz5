@@ -11,12 +11,12 @@ public class NestedSetCompareMultipleElementNeutral {
     @Test
     public void test1() {
         // given
-        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Wilhem", "Alcivar");
-        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Leon", "Hunter");
+        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Wilhemx", "Alcivarx");
+        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Leonx", "Hunterx");
         ComparableTreeSet<ComparableTreeSet<String>> powerset1 = new ComparableTreeSet<>(set1, set2);
 
-        ComparableTreeSet<String> set3 = new ComparableTreeSet<>("Leon", "Hunter");
-        ComparableTreeSet<String> set4 = new ComparableTreeSet<>("Wilhem", "Alcivar");
+        ComparableTreeSet<String> set3 = new ComparableTreeSet<>("Leonx", "Hunterx");
+        ComparableTreeSet<String> set4 = new ComparableTreeSet<>("Wilhemx", "Alcivarx");
         ComparableTreeSet<ComparableTreeSet<String>> powerset2 = new ComparableTreeSet<>(set3, set4);
 
         // when
@@ -30,12 +30,12 @@ public class NestedSetCompareMultipleElementNeutral {
     @Test
     public void test2() {
         // given
-        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("The", "Quick", "Brown", "Fox", "Jumps");
-        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Over", "The", "Lazy", "Dog");
+        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("The", "Quickx", "Brownx", "Foxx", "Jumpsx");
+        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Overx", "Thex", "Lazyx", "Dogx");
         ComparableTreeSet<ComparableTreeSet<String>> powerset1 = new ComparableTreeSet<>(set1, set2);
 
-        ComparableTreeSet<String> set3 = new ComparableTreeSet<>("Brown", "Jumps", "Fox", "Quick", "The");
-        ComparableTreeSet<String> set4 = new ComparableTreeSet<>("The", "Lazy", "Dog", "Over");
+        ComparableTreeSet<String> set3 = new ComparableTreeSet<>("Brownx", "Jumpsx", "Foxx", "Quickx", "Thex");
+        ComparableTreeSet<String> set4 = new ComparableTreeSet<>("Thex", "Lazyx", "Dogx", "Overx");
         ComparableTreeSet<ComparableTreeSet<String>> powerset2 = new ComparableTreeSet<>(set3, set4);
 
         // when

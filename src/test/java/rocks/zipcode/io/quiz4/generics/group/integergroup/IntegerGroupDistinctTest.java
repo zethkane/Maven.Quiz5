@@ -10,17 +10,17 @@ import rocks.zipcode.io.quiz4.generics.Group;
 public class IntegerGroupDistinctTest {
     @Test
     public void test1() {
-        test(1);
+        test(11);
     }
 
     @Test
     public void test2() {
-        test(2);
+        test(12);
     }
 
     @Test
     public void test3() {
-        test(3);
+        test(13);
     }
 
     private void test(Integer valueToInsert) {

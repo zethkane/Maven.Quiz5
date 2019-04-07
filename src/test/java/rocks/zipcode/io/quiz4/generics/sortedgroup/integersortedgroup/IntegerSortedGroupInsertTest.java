@@ -14,10 +14,10 @@ public class IntegerSortedGroupInsertTest {
     public void test1() {
         // given
         SortedGroup<Integer> group = new SortedGroup<>();
-        Integer firstValue = 1;
-        Integer secondValue = 2;
-        Integer thirdValue = 3;
-        Integer fourthValue = 4;
+        Integer firstValue = 11;
+        Integer secondValue = 12;
+        Integer thirdValue = 13;
+        Integer fourthValue = 14;
 
         // when
         group.insert(fourthValue);
@@ -41,10 +41,10 @@ public class IntegerSortedGroupInsertTest {
     public void test2() {
         // given
         SortedGroup<Integer> group = new SortedGroup<>();
-        Integer firstValue = 98;
-        Integer secondValue = 102;
-        Integer thirdValue = 362;
-        Integer fourthValue = 999;
+        Integer firstValue = 198;
+        Integer secondValue = 1102;
+        Integer thirdValue = 1362;
+        Integer fourthValue = 1999;
 
         // when
         group.insert(fourthValue);
@@ -70,9 +70,9 @@ public class IntegerSortedGroupInsertTest {
         // given
         SortedGroup<Integer> group = new SortedGroup<>();
         Integer firstValue = Integer.MIN_VALUE;
-        Integer secondValue = firstValue + 1;
-        Integer thirdValue = secondValue + 1;
-        Integer fourthValue = Integer.MAX_VALUE;
+        Integer secondValue = firstValue + 2;
+        Integer thirdValue = secondValue + 3;
+        Integer fourthValue = Integer.MAX_VALUE - 1;
 
         // when
         group.insert(fourthValue);

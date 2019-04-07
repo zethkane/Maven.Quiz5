@@ -23,24 +23,24 @@ public class StringStackPushTest {
 
     @Test
     public void test2() {
-        String expected = "0";
+        String expected = "10";
         stack.push(expected);
         Assert.assertEquals(stack.peek(), expected);
     }
 
     @Test
     public void test3() {
-        String expected = "1";
+        String expected = "11";
         stack.push(expected);
         Assert.assertEquals(stack.peek(), expected);
     }
 
     @Test
     public void test4() {
-        String val1 = "10";
-        String val2 = "15";
-        String val3 = "20";
-        String expected = "25";
+        String val1 = "110";
+        String val2 = "115";
+        String val3 = "120";
+        String expected = "125";
 
         stack.push(val1);
         stack.push(val2);
@@ -52,10 +52,10 @@ public class StringStackPushTest {
 
     @Test
     public void test5() {
-        String  val1 = "30";
-        String  val2 = "35";
-        String  val3 = "40";
-        String  expected = "45";
+        String  val1 = "130";
+        String  val2 = "135";
+        String  val3 = "140";
+        String  expected = "145";
 
         stack.push(val1);
         stack.push(val2);

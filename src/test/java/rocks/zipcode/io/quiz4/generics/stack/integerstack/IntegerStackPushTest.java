@@ -23,24 +23,24 @@ public class IntegerStackPushTest {
 
     @Test
     public void test2() {
-        Integer expected = 0;
+        Integer expected = 10;
         stack.push(expected);
         Assert.assertEquals(stack.peek(), expected);
     }
 
     @Test
     public void test3() {
-        Integer expected = 1;
+        Integer expected = 11;
         stack.push(expected);
         Assert.assertEquals(stack.peek(), expected);
     }
 
     @Test
     public void test4() {
-        Integer val1 = 10;
-        Integer val2 = 15;
-        Integer val3 = 20;
-        Integer expected = 25;
+        Integer val1 = 110;
+        Integer val2 = 115;
+        Integer val3 = 120;
+        Integer expected = 125;
 
         stack.push(val1);
         stack.push(val2);
@@ -52,10 +52,10 @@ public class IntegerStackPushTest {
 
     @Test
     public void test5() {
-        Integer  val1 = 30;
-        Integer  val2 = 30;
-        Integer  val3 = 40;
-        Integer  expected = 45;
+        Integer  val1 = 130;
+        Integer  val2 = 130;
+        Integer  val3 = 140;
+        Integer  expected = 145;
 
         stack.push(val1);
         stack.push(val2);

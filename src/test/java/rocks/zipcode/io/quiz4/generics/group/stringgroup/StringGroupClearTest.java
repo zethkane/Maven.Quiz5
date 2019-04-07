@@ -10,17 +10,17 @@ import rocks.zipcode.io.quiz4.generics.Group;
 public class StringGroupClearTest {
     @Test
     public void test1() {
-        test("first", "clear", "test");
+        test("first1", "clear1", "test1");
     }
 
     @Test
     public void test2() {
-        test("an", "additional", "test", "here");
+        test("an1", "additional1", "test1", "here1");
     }
 
     @Test
     public void test3() {
-        test("a", "dash", "of", "anonymity");
+        test("a1", "dash1", "of1", "anonymity1");
     }
 
     private void test(String... valuesToInsert) {

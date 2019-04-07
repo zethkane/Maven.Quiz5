@@ -13,10 +13,10 @@ public class StringSortedGroupInsertTest {
     public void test1() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
-        String firstValue = "A";
-        String secondValue = "B";
-        String thirdValue = "C";
-        String fourthValue = "D";
+        String firstValue = "A1";
+        String secondValue = "B1";
+        String thirdValue = "C1";
+        String fourthValue = "D1";
 
         // when
         group.insert(fourthValue);
@@ -39,10 +39,10 @@ public class StringSortedGroupInsertTest {
     public void test2() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
-        String firstValue = "a";
-        String secondValue = "b";
-        String thirdValue = "c";
-        String fourthValue = "d";
+        String firstValue = "a1";
+        String secondValue = "b1";
+        String thirdValue = "c1";
+        String fourthValue = "d1";
 
         // when
         group.insert(fourthValue);
@@ -66,10 +66,10 @@ public class StringSortedGroupInsertTest {
     public void test3() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
-        String firstValue = "A";
-        String secondValue = "B";
-        String thirdValue = "a";
-        String fourthValue = "b";
+        String firstValue = "A1";
+        String secondValue = "B1";
+        String thirdValue = "a1";
+        String fourthValue = "b1";
 
         // when
         group.insert(fourthValue);
@@ -94,10 +94,10 @@ public class StringSortedGroupInsertTest {
     public void test4() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
-        String firstValue = "Astro";
-        String secondValue = "Bicycle";
-        String thirdValue = "Carnations";
-        String fourthValue = "Dinosaur";
+        String firstValue = "Astro1";
+        String secondValue = "Bicycle1";
+        String thirdValue = "Carnations1";
+        String fourthValue = "Dinosaur1";
 
         // when
         group.insert(fourthValue);
@@ -121,10 +121,10 @@ public class StringSortedGroupInsertTest {
     public void test6() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
-        String firstValue = "Astro";
-        String secondValue = "Carnations";
-        String thirdValue = "bicycle";
-        String fourthValue = "dinosaur";
+        String firstValue = "Astro1";
+        String secondValue = "Carnations1";
+        String thirdValue = "bicycle1";
+        String fourthValue = "dinosaur1";
 
         // when
         group.insert(fourthValue);
@@ -149,10 +149,10 @@ public class StringSortedGroupInsertTest {
     public void test7() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
-        String firstValue = "1";
-        String secondValue = "2";
-        String thirdValue = "3";
-        String fourthValue = "4";
+        String firstValue = "11";
+        String secondValue = "12";
+        String thirdValue = "13";
+        String fourthValue = "14";
 
         // when
         group.insert(fourthValue);
@@ -176,10 +176,10 @@ public class StringSortedGroupInsertTest {
     public void test8() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
-        String firstValue = "102";
-        String secondValue = "362";
-        String thirdValue = "98";
-        String fourthValue = "999";
+        String firstValue = "1102";
+        String secondValue = "1362";
+        String thirdValue = "198";
+        String fourthValue = "1999";
 
         // when
         group.insert(fourthValue);
@@ -204,8 +204,8 @@ public class StringSortedGroupInsertTest {
     public void test9() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
-        String firstValue = String.valueOf(Integer.MIN_VALUE + 2);
-        String secondValue = String.valueOf(Integer.MIN_VALUE + 1);
+        String firstValue = String.valueOf(Integer.MIN_VALUE + 3);
+        String secondValue = String.valueOf(Integer.MIN_VALUE + 4);
         String thirdValue = String.valueOf(Integer.MIN_VALUE);
         String fourthValue = String.valueOf(Integer.MAX_VALUE);
 

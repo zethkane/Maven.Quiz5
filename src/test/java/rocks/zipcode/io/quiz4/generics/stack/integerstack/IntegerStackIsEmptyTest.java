@@ -23,13 +23,13 @@ public class IntegerStackIsEmptyTest {
 
     @Test
     public void test2() {
-        stack.push(0);
+        stack.push(10);
         Assert.assertFalse(stack.isEmpty());
     }
 
     @Test
     public void test3() {
-        stack.push(1);
+        stack.push(11);
         Assert.assertFalse(stack.isEmpty());
     }
 }

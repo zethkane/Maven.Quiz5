@@ -11,12 +11,12 @@ public class NestedSetCompareMultipleElementPositive {
     @Test
     public void test1() {
         // given
-        ComparableTreeSet<String> set3 = new ComparableTreeSet<>("Froilan", "Miranda");
-        ComparableTreeSet<String> set4 = new ComparableTreeSet<>("Nhu", "Nguyen");
+        ComparableTreeSet<String> set3 = new ComparableTreeSet<>("Froilanx", "Mirandax");
+        ComparableTreeSet<String> set4 = new ComparableTreeSet<>("Nhux", "Nguyen");
         ComparableTreeSet<ComparableTreeSet<String>> powerset1 = new ComparableTreeSet<>(set3, set4);
 
-        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Wilhem", "Alcivar");
-        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Leon", "Hunter");
+        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Wilhemx", "Alcivarx");
+        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Leonx", "Hunterx");
         ComparableTreeSet<ComparableTreeSet<String>> powerset2 = new ComparableTreeSet<>(set1, set2);
 
         // when
@@ -30,12 +30,12 @@ public class NestedSetCompareMultipleElementPositive {
     @Test
     public void test2() {
         // given
-        ComparableTreeSet<String> set3 = new ComparableTreeSet<>("Kris", "Younger");
-        ComparableTreeSet<String> set4 = new ComparableTreeSet<>("Leon", "Hunter");
+        ComparableTreeSet<String> set3 = new ComparableTreeSet<>("Krisx", "Youngerx");
+        ComparableTreeSet<String> set4 = new ComparableTreeSet<>("Leonx", "Hunterx");
         ComparableTreeSet<ComparableTreeSet<String>> powerset1 = new ComparableTreeSet<>(set3, set4);
 
-        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Nhu", "Nguyen");
-        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Wilhem", "Alcivar");
+        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Nhux", "Nguyenx");
+        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Wilhemx", "Alcivarx");
         ComparableTreeSet<ComparableTreeSet<String>> powerset2 = new ComparableTreeSet<>(set1, set2);
 
         // when

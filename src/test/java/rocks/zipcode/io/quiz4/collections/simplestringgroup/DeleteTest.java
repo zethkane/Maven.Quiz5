@@ -10,36 +10,24 @@ import rocks.zipcode.io.quiz4.collections.SimpleStringGroup;
 public class DeleteTest {
     @Test
     public void test1() {
-        // given
-        SimpleStringGroup group = new SimpleStringGroup();
-        String valueToInsert = "first test";
-
-        // when
-        group.insert(valueToInsert);
-        group.delete(valueToInsert);
-
-        Assert.assertFalse(group.has(valueToInsert));
+     test("blah ");
     }
 
     @Test
     public void test2() {
-        // given
-        SimpleStringGroup group = new SimpleStringGroup();
-        String valueToInsert = "second test";
-
-        // when
-        group.insert(valueToInsert);
-        group.delete(valueToInsert);
-
-        // then
-        Assert.assertFalse(group.has(valueToInsert));
+        test("blah blah ");
     }
 
     @Test
     public void test3() {
+        test("blah blah blah ");
+    }
+
+
+
+    private void test(String valueToInsert) {
         // given
         SimpleStringGroup group = new SimpleStringGroup();
-        String valueToInsert = "third test";
 
         // when
         group.insert(valueToInsert);

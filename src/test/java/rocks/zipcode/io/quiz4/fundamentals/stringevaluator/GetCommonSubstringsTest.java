@@ -11,9 +11,9 @@ public class GetCommonSubstringsTest {
     @Test
     public void test1() {
         // given
-        String firstInput = "AAB";
-        String secondInput = "AAAB";
-        String[] expected = {"A", "AA", "AAB", "AB", "B"};
+        String firstInput = "ZZB";
+        String secondInput = "ZZZB";
+        String[] expected = {"Z", "AZZ", "ZZB", "ZB", "B"};
 
         // when
         String[] actual = StringEvaluator.getCommonSubstrings(firstInput, secondInput);
@@ -25,7 +25,7 @@ public class GetCommonSubstringsTest {
     @Test
     public void test2() {
         // given
-        String firstInput = "AAZB";
+        String firstInput = "AAXB";
         String secondInput = "AAAB";
         String[] expected = {"A", "AA", "B"};
 
@@ -40,9 +40,9 @@ public class GetCommonSubstringsTest {
     @Test
     public void test3() {
         // given
-        String firstInput = "Zapple";
-        String secondInput = "Candy apples!";
-        String[] expected = {"a", "ap", "app", "appl", "apple", "e", "l", "le", "p", "pl", "ple", "pp", "ppl", "pple"};
+        String firstInput = "X";
+        String secondInput = "XXX";
+        String[] expected = {"X"};
 
         // when
         String[] actual = StringEvaluator.getCommonSubstrings(firstInput, secondInput);
@@ -56,9 +56,9 @@ public class GetCommonSubstringsTest {
     @Test
     public void tes4() {
         // given
-        String firstInput = "Irreducible complexity";
-        String secondInput = "Deductive operations";
-        String[] expected = {" ", "c", "d", "du", "duc", "e", "e ", "ed", "edu", "educ", "i", "o", "p", "r", "t", "u", "uc"};
+        String firstInput = "d";
+        String secondInput = "popd";
+        String[] expected = {"d"};
 
         // when
         String[] actual = StringEvaluator.getCommonSubstrings(firstInput, secondInput);
@@ -70,9 +70,9 @@ public class GetCommonSubstringsTest {
     @Test
     public void test5() {
         // given
-        String firstInput = "Peter piper picked a pepper";
-        String secondInput = "Jimmy neutron was a fancy scientist";
-        String[] expected = {" ", " a", " a ", "a", "a ", "c", "e", "i", "r", "t"};
+        String firstInput = "Peter";
+        String secondInput = "Jea";
+        String[] expected = {"e"};
 
         // when
         String[] actual = StringEvaluator.getCommonSubstrings(firstInput, secondInput);

@@ -10,17 +10,17 @@ import rocks.zipcode.io.quiz4.collections.SimpleStringGroup;
 public class ClearTest {
     @Test
     public void test1() {
-        test("first", "clear", "test");
+        test("first", "clear", "test", "adsada");
     }
 
     @Test
     public void test2() {
-        test("an", "additional", "test", "here");
+        test("an", "additional", "test", "here", "asdasda");
     }
 
     @Test
     public void test3() {
-        test("a", "dash", "of", "anonymity");
+        test("a", "dash", "of", "anonymity", "asdassadasaa");
     }
 
     private void test(String... valuesToInsert) {

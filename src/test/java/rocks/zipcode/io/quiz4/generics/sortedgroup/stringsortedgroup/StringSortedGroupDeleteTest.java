@@ -13,10 +13,10 @@ public class StringSortedGroupDeleteTest {
     public void test1() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
-        String firstValue = "1";
-        String secondValue = "2";
-        String thirdValue = "3";
-        String fourthValue = "4";
+        String firstValue = "11";
+        String secondValue = "12";
+        String thirdValue = "13";
+        String fourthValue = "14";
 
         group.insert(fourthValue);
         group.insert(firstValue);
@@ -40,10 +40,10 @@ public class StringSortedGroupDeleteTest {
     public void test2() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
-        String firstValue = "1";
-        String secondValue = "2";
-        String thirdValue = "3";
-        String fourthValue = "4";
+        String firstValue = "11";
+        String secondValue = "12";
+        String thirdValue = "13";
+        String fourthValue = "14";
 
         group.insert(fourthValue);
         group.insert(firstValue);
@@ -67,10 +67,10 @@ public class StringSortedGroupDeleteTest {
     public void test3() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
-        String firstValue = "1";
-        String secondValue = "2";
-        String thirdValue = "3";
-        String fourthValue = "4";
+        String firstValue = "11";
+        String secondValue = "12";
+        String thirdValue = "13";
+        String fourthValue = "14";
 
         group.insert(fourthValue);
         group.insert(firstValue);

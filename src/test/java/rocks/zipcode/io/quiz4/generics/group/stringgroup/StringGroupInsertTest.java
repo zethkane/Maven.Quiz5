@@ -10,17 +10,17 @@ import rocks.zipcode.io.quiz4.generics.Group;
 public class StringGroupInsertTest {
     @Test
     public void test1() {
-        test("first test");
+        test("first test1");
     }
 
     @Test
     public void test2() {
-        test("second test");
+        test("second test1");
     }
 
     @Test
     public void test3() {
-        test("third test");
+        test("third test1");
     }
 
     private void test(String valueToInsert) {

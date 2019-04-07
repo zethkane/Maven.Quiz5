@@ -13,17 +13,17 @@ import java.util.List;
 public class GetTest {
     @Test
     public void test1() {
-        test("first test");
+        test("blah ");
     }
 
     @Test
     public void test2() {
-        test("second test");
+        test("blah blah ");
     }
 
     @Test
     public void test3() {
-        test("third test");
+        test("blah blah blah ");
     }
 
     @Test(expected = IndexOutOfBoundsException.class)

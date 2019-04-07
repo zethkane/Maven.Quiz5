@@ -12,7 +12,7 @@ public class StringGroupDeleteTest {
     public void test1() {
         // given
         Group<String> group = new Group<>();
-        String valueToInsert = "first test";
+        String valueToInsert = "first test1";
 
         // when
         group.insert(valueToInsert);
@@ -25,7 +25,7 @@ public class StringGroupDeleteTest {
     public void test2() {
         // given
         Group<String> group = new Group<>();
-        String valueToInsert = "second test";
+        String valueToInsert = "second test1";
 
         // when
         group.insert(valueToInsert);
@@ -39,7 +39,7 @@ public class StringGroupDeleteTest {
     public void test3() {
         // given
         Group<String> group = new Group<>();
-        String valueToInsert = "third test";
+        String valueToInsert = "third test1";
 
         // when
         group.insert(valueToInsert);

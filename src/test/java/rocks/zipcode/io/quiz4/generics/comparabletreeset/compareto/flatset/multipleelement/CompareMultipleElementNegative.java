@@ -12,8 +12,8 @@ public class CompareMultipleElementNegative {
     @Test
     public void test1() {
         // given
-        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Arty", "Fee", "Shawl");
-        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Burt", "Bot", "Boi");
+        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Artyxccx", "Feexcc", "Shawlxccx");
+        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Burtxcxc", "Botxx", "Boixxx");
 
         // when
         Integer actual = set1.compareTo(set2);
@@ -26,8 +26,8 @@ public class CompareMultipleElementNegative {
     @Test
     public void test2() {
         // given
-        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Candy", "Cane");
-        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Corny", "Carl");
+        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Candyxxx", "Canexxxx");
+        ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Cornyxxx", "Carlxxxxx");
 
         // when
         Integer actual = set1.compareTo(set2);

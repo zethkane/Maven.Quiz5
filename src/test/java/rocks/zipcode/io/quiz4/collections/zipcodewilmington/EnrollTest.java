@@ -18,12 +18,17 @@ public class EnrollTest {
     public void test2() {
         test(
                 new Student(),
+                new Student(),
+                new Student(),
                 new Student());
     }
 
     @Test
     public void test3() {
         test(
+                new Student(),
+                new Student(),
+                new Student(),
                 new Student(),
                 new Student(),
                 new Student());

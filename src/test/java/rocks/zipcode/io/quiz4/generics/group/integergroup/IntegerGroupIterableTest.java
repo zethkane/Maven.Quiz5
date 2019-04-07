@@ -15,28 +15,28 @@ import java.util.List;
 public class IntegerGroupIterableTest {
     @Test
     public void test1() {
-        test(9);
+        test(19);
     }
 
     @Test
     public void test2() {
-        test(9, 99);
+        test(19, 199);
     }
 
     @Test
     public void test3() {
-        test(9, 99, 999);
+        test(19, 199, 1999);
     }
 
 
     @Test
     public void test4() {
-        test(9, 99, 999, 999);
+        test(19, 199, 1999, 1999);
     }
 
     @Test
     public void test5() {
-        test(9, 99, 999, 999, 9999);
+        test(19, 199, 1999, 1999, 19999);
     }
 
     private void test(Integer... valuesToInsert) {

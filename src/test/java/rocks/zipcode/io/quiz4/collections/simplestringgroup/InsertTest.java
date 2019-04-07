@@ -10,17 +10,17 @@ import rocks.zipcode.io.quiz4.collections.SimpleStringGroup;
 public class InsertTest {
     @Test
     public void test1() {
-        test("first test");
+        test("blah ");
     }
 
     @Test
     public void test2() {
-        test("second test");
+        test("blah blah ");
     }
 
     @Test
     public void test3() {
-        test("third test");
+        test("blah blah blah ");
     }
 
     private void test(String valueToInsert) {

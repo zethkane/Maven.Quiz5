@@ -13,17 +13,17 @@ import java.util.List;
 public class StringGroupFetchTest {
     @Test
     public void test1() {
-        test("first test");
+        test("first test1");
     }
 
     @Test
     public void test2() {
-        test("second test");
+        test("second test1");
     }
 
     @Test
     public void test3() {
-        test("third test");
+        test("third test1");
     }
 
     @Test(expected = IndexOutOfBoundsException.class)
@@ -32,7 +32,7 @@ public class StringGroupFetchTest {
         Group<String> group = new Group<>();
 
         // when
-        group.fetch(10);
+        group.fetch(110);
     }
 
     @Test(expected = IndexOutOfBoundsException.class)
@@ -41,7 +41,7 @@ public class StringGroupFetchTest {
         Group<String> group = new Group<>();
 
         // when
-        group.fetch(15);
+        group.fetch(115);
     }
 
 

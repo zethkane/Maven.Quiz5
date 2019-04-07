@@ -10,22 +10,22 @@ import rocks.zipcode.io.quiz4.objectorientation.PalindromeObject;
 public class PalindromeObjectIsPalindromeTestPositive {
     @Test
     public void test1() {
-        test("racecar");
+        test("racxcar");
     }
 
     @Test
     public void test2() {
-        test("racEcar");
+        test("racXcar");
     }
     
     @Test
     public void test3() {
-        test("redder");
+        test("rexxer");
     }
     
     @Test
     public void test4() {
-        test("redrum murder");
+        test("redrumXmurder");
     }
     
     public void test(String input) {

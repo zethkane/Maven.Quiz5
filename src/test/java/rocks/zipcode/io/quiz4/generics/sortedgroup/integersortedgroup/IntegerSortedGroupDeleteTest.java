@@ -13,10 +13,10 @@ public class IntegerSortedGroupDeleteTest {
     public void test1() {
         // given
         SortedGroup<Integer> group = new SortedGroup<>();
-        Integer firstValue = 1;
-        Integer secondValue = 2;
-        Integer thirdValue = 3;
-        Integer fourthValue = 4;
+        Integer firstValue = 11;
+        Integer secondValue = 12;
+        Integer thirdValue = 13;
+        Integer fourthValue = 14;
 
         group.insert(fourthValue);
         group.insert(firstValue);
@@ -40,10 +40,10 @@ public class IntegerSortedGroupDeleteTest {
     public void test2() {
         // given
         SortedGroup<Integer> group = new SortedGroup<>();
-        Integer firstValue = 1;
-        Integer secondValue = 2;
-        Integer thirdValue = 3;
-        Integer fourthValue = 4;
+        Integer firstValue = 11;
+        Integer secondValue = 12;
+        Integer thirdValue = 13;
+        Integer fourthValue = 14;
 
         group.insert(fourthValue);
         group.insert(firstValue);
@@ -67,10 +67,10 @@ public class IntegerSortedGroupDeleteTest {
     public void test3() {
         // given
         SortedGroup<Integer> group = new SortedGroup<>();
-        Integer firstValue = 1;
-        Integer secondValue = 2;
-        Integer thirdValue = 3;
-        Integer fourthValue = 4;
+        Integer firstValue = 11;
+        Integer secondValue = 12;
+        Integer thirdValue = 13;
+        Integer fourthValue = 14;
 
         group.insert(fourthValue);
         group.insert(firstValue);
