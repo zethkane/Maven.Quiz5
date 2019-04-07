@@ -169,6 +169,7 @@
 ### ComparableTreeSet<T>
 * **Description**
 	* The purpose of this class is to create subclass of a `TreeSet<T>` which can `compareTo` other subclass of the same type.
+	* This shit is hard.
 * **Methods to Complete**
 	* `int compareTo(ComparableTreeSet<T> o)`
 	
