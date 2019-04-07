@@ -41,7 +41,7 @@
 
 ### StringEvaluator
 * **Description**
-	* The purpose of this class is to 
+	* The purpose of this class is to create a utility class for `String`
 * **Methods to Complete**
 	* `String[] getAllSubstrings(String string)`
 	* `String[] getCommonSubstrings(String string1, String string2)`
@@ -60,7 +60,7 @@
 
 ### StringAssembler
 * **Description**
-	* The purpose of this class is to 
+	* The purpose of this class is to create a wrapper class for `StringBuilder` 
 * **Methods to Complete**
 	* `StringAssembler append(String string)`
 	* `String append()`
@@ -68,7 +68,7 @@
 
 ### StringEvaluatorObject
 * **Description**
-	* The purpose of this class is to 
+	* The purpose of this class is to create a wrapper object for `StringEvaluator` 
 * **Methods to Complete**
 	* `String[] getAllSubstrings()`
 	* `String[] getCommonSubstrings(String string2)`
@@ -89,14 +89,14 @@
 ## Section 3 - Collections
 ### Student
 * **Description**
-	* The purpose of this class is to 
+	* The purpose of this class is to manage `totalAmountOfHoursLearned`
 * **Methods to Complete**
 	* `void learn(Double amountOfHours)`
 	* `Double getTotalStudyTime()`
 
 ### ZipCodeWilmington
 * **Description**
-	* The purpose of this class is to 
+	* The purpose of this class is to mediate `List` of `Student` objects.
 * **Methods to Complete**
 	* `void enroll(Student student)`
 	* `Boolean isEnrolled(Student student)`
@@ -105,7 +105,7 @@
 
 ### SimpleStringGroup
 * **Description**
-	* The purpose of this class is to
+	* The purpose of this class is to create a wrapper of `List` of `String` objects
 * **Methods to Complete**
 	* `Integer count()`
 	* `void insert(String string)`
@@ -141,7 +141,7 @@
 
 ### Group<T>
 * **Description**
-	* The purpose of this class is to
+	* The purpose of this class is to create a generic wrapper for a `List` object
 * **Methods to Complete**
 	* `Integer count()`
 	* `void insert(T value)`
@@ -153,7 +153,7 @@
 
 ### SortedGroup<T>
 * **Description**
-	* The purpose of this class is to
+	* The purpose of this class is to create a generic wrapper for sorted `List` object.
 * **Methods to Complete**
 	* `insert(T value)`
 	* `delete(T value)`
@@ -161,14 +161,14 @@
 
 ### GenericUtils
 * **Description**
-	* The purpose of this class is to
+	* The purpose of this class is to create a procedure to generate the [power set](https://www.mathsisfun.com/sets/power-set.html) of an `Set` of objects.
 * **Methods to Complete**
 	* `<T extends Comparable> Iterable<? extends Iterable<T>> powerSet(Set<T> originalSet)`
 	* `<T extends Comparable> Iterable<? extends Iterable<T>> powerSet(T... originalSet)`
 
 ### ComparableTreeSet<T>
 * **Description**
-	* The purpose of this class is to
+	* The purpose of this class is to create subclass of a `TreeSet<T>` which can `compareTo` other subclass of the same type.
 * **Methods to Complete**
 	* `int compareTo(ComparableTreeSet<T> o)`
 	
