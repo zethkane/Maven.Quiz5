@@ -30,7 +30,7 @@ public class NestedSetCompareMultipleElementNeutral {
     @Test
     public void test2() {
         // given
-        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("The", "Quickx", "Brownx", "Foxx", "Jumpsx");
+        ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Thex", "Quickx", "Brownx", "Foxx", "Jumpsx");
         ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Overx", "Thex", "Lazyx", "Dogx");
         ComparableTreeSet<ComparableTreeSet<String>> powerset1 = new ComparableTreeSet<>(set1, set2);
 

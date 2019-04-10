@@ -204,10 +204,10 @@ public class StringSortedGroupInsertTest {
     public void test9() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
-        String firstValue = String.valueOf(Integer.MIN_VALUE + 3);
-        String secondValue = String.valueOf(Integer.MIN_VALUE + 4);
-        String thirdValue = String.valueOf(Integer.MIN_VALUE);
-        String fourthValue = String.valueOf(Integer.MAX_VALUE);
+        String firstValue = "ddd";
+        String secondValue = "eee";
+        String thirdValue = "aaa";
+        String fourthValue = "bbb";
 
         // when
         group.insert(fourthValue);
@@ -221,9 +221,9 @@ public class StringSortedGroupInsertTest {
         int fourthValueIndex = group.indexOf(fourthValue);
 
         // then
-        Assert.assertEquals(firstValueIndex, 0);
-        Assert.assertEquals(secondValueIndex, 1);
-        Assert.assertEquals(thirdValueIndex, 2);
-        Assert.assertEquals(fourthValueIndex, 3);
+        Assert.assertEquals(thirdValueIndex, 0);
+        Assert.assertEquals(fourthValueIndex, 1);
+        Assert.assertEquals(firstValueIndex, 2);
+        Assert.assertEquals(secondValueIndex, 3);
     }
 }

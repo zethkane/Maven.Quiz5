@@ -13,7 +13,7 @@ public class PalindromeObjectGetAllPalindromesTest {
     public void test1() {
         // given
         String input = "racxcar";
-        String[] expected = new String[]{"a", "acxca", "c", "cxc", "e", "r", "racxcar"};
+        String[] expected = new String[]{"r", "a", "c", "x", "acxca", "cxc", "racxcar"};
         test(input, expected);
     }
 
@@ -21,7 +21,7 @@ public class PalindromeObjectGetAllPalindromesTest {
     public void test2() {
         // given
         String input = "redder";
-        String[] expected = new String[]{"x", "xx", "e", "exxe", "r", "rexxer"};
+        String[] expected = new String[]{"d", "dd", "e", "edde", "r", "redder"};
         test(input, expected);
     }
 

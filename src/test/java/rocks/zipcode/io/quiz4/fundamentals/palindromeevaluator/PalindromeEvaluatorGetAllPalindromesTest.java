@@ -21,7 +21,7 @@ public class PalindromeEvaluatorGetAllPalindromesTest {
     public void test2() {
         // given
         String input = "rezzer";
-        String[] expected = new String[]{"d", "zz", "e", "ezze", "r", "rezzer"};
+        String[] expected = new String[]{"r", "e", "z", "ezze", "rezzer", "zz"};
         test(input, expected);
     }
 

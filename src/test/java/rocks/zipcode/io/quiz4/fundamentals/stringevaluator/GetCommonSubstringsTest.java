@@ -13,7 +13,7 @@ public class GetCommonSubstringsTest {
         // given
         String firstInput = "ZZB";
         String secondInput = "ZZZB";
-        String[] expected = {"Z", "AZZ", "ZZB", "ZB", "B"};
+        String[] expected = {"Z", "ZZ", "ZZB", "ZB", "B"};
 
         // when
         String[] actual = StringEvaluator.getCommonSubstrings(firstInput, secondInput);
