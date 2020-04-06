@@ -1,12 +1,13 @@
 package rocks.zipcode.io.quiz4.collections;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
 /**
  * @author leon on 11/12/2018.
  */
-public class SimpleStringGroup {
+public class SimpleStringGroup implements Iterable {
     private List<String> list;
 
     public SimpleStringGroup(){
@@ -35,5 +36,10 @@ public class SimpleStringGroup {
 
     public void clear() {
         list.clear();
+    }
+
+    @Override
+    public Iterator iterator() {
+        return null;
     }
 }
