@@ -7,10 +7,10 @@ import java.util.TreeSet;
 /**
  * @author leon on 11/12/2018.
  */
-public class    ComparableTreeSet<_> {
-    private Set<_> set;
+public class    ComparableTreeSet<T> {
+    private Set<T> set;
 
-    public ComparableTreeSet(_... arr) {
+    public ComparableTreeSet(T... arr) {
         this.set.addAll(Arrays.asList(arr));
     }
 
@@ -19,7 +19,7 @@ public class    ComparableTreeSet<_> {
         this.set = new TreeSet<>();
     }
 
-    public int compareTo(ComparableTreeSet<_> o) {
+    public int compareTo(ComparableTreeSet<T> o) {
         return Integer.valueOf(String.valueOf(o));
     }
 }

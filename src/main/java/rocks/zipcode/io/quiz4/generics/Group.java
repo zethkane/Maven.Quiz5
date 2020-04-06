@@ -7,9 +7,9 @@ import java.util.List;
 /**
  * @author leon on 18/12/2018.
  */
-public class Group<_> {
-    private List<_> list;
-    private Iterator<_> iterator;
+public class Group<T> {
+    private List<T> list;
+    private Iterator<T> iterator;
 
 
     public Group() {
@@ -20,19 +20,19 @@ public class Group<_> {
         return list.size();
     }
 
-    public void insert(_ value) {
+    public void insert(T value) {
         list.add(value);
     }
 
-    public Boolean has(_ value) {
+    public Boolean has(T value) {
         return list.contains(value);
     }
 
-    public _ fetch(int indexOfValue) {
+    public T fetch(int indexOfValue) {
         return list.get(indexOfValue);
     }
 
-    public void delete(_ value) {
+    public void delete(T value) {
         list.remove(value);
     }
 
@@ -40,7 +40,7 @@ public class Group<_> {
         list.clear();
     }
 
-    public Iterator<_> iterator() {
+    public Iterator<T> iterator() {
       while (iterator.hasNext()){
           list.add(iterator.next());
       }
