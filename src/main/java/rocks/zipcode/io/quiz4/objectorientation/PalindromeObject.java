@@ -16,16 +16,10 @@ public class PalindromeObject {
     }
 
     public Boolean isPalindrome(){
-        if (reverseString().equals(input)){
-            return true;
-        }
-        return false;
+      return PalindromeEvaluator.isPalindrome(input);
     }
 
     public String reverseString(){
-        String reversed = "";
-        StringBuilder reverser = new StringBuilder(input);;
-        reversed += reverser.reverse();
-        return reversed;
+       return PalindromeEvaluator.reverseString(input);
     }
 }
