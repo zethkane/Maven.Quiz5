@@ -4,7 +4,9 @@ package rocks.zipcode.io.quiz4.objectorientation;
  * @author leon on 18/12/2018.
  */
 public class PalindromeObject {
+    private String input;
     public PalindromeObject(String input) {
+        this.input = input;
     }
 
     public String[] getAllPalindromes(){
@@ -12,10 +14,16 @@ public class PalindromeObject {
     }
 
     public Boolean isPalindrome(){
-        return null;
+        if (reverseString().equals(input)){
+            return true;
+        }
+        return false;
     }
 
     public String reverseString(){
-        return null;
+        String reversed = "";
+        StringBuilder reverser = new StringBuilder(input);;
+        reversed += reverser.reverse();
+        return reversed;
     }
 }

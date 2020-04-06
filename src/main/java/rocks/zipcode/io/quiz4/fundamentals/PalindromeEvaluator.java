@@ -5,14 +5,23 @@ package rocks.zipcode.io.quiz4.fundamentals;
  */
 public class PalindromeEvaluator {
     public static String[] getAllPalindromes(String string) {
+
         return null;
     }
 
     public static Boolean isPalindrome(String string) {
-        return null;
+        String compare = "";
+        StringBuilder stringBuilder = new StringBuilder(string);
+        compare += stringBuilder.reverse();
+        if (compare.equals(string)){
+        return true;
+        }return false;
     }
 
     public static String reverseString(String string) {
-        return null;
+        String reverse = "";
+        StringBuilder reverser = new StringBuilder(string);
+        reverse += reverser.reverse();
+        return reverse;
     }
 }
