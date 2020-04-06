@@ -1,5 +1,7 @@
 package rocks.zipcode.io.quiz4.objectorientation;
 
+import rocks.zipcode.io.quiz4.fundamentals.StringEvaluator;
+
 /**
  * @author leon on 19/12/2018.
  */
@@ -10,20 +12,7 @@ public class StringEvaluatorObject {
     }
 
     public String[] getAllSubstrings() {
-        String[] arr;
-        String toBeSplit = "";
-        for (int i = 0; i < string.length(); i++) {
-            for (int j = i + 1; j <= string.length(); j++) {
-                if (!string.substring(i,j).equals(" "))
-                    toBeSplit += (string.substring(i,j) +",");
-            }
-        }
-
-        arr = toBeSplit.split(",");
-
-
-        return arr;
-
+        return StringEvaluator.getAllSubstrings(string);
     }
 
     public String[] getCommonSubstrings(String secondInput) {
